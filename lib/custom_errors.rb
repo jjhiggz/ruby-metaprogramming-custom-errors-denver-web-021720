@@ -17,7 +17,7 @@ class Triangle
   def triangleType
     eq ? "equilateral" : isc ? "iscoseles" : sc ? "scalene": undef
   end
-  
+
   class TriangleError < StandardError
     def message
       "fuck shit shit fuck, ball: sac, nuts, chees"
