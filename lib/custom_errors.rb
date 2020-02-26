@@ -22,7 +22,11 @@ class Triangle
     elsif sc ==true
       "scalene"
     else
-      undef
+      begin 
+        raise TriangleError
+      rescue  TriangleError => error
+        puts error.message
+      end
     end
 
   end
