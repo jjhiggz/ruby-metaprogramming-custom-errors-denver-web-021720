@@ -14,9 +14,9 @@ class Triangle
   def sc
     @array[0]>@array[1]+@array[2]
   end
-  # def triangleType
-  #   eq ? "equilateral" : isc ? "iscoseles" : sc ? "scalene": undef
-  # end
+  def triangleType
+    eq ? "equilateral" : isc ? "iscoseles" : sc ? "scalene": undef
+  end
 
   class TriangleError < StandardError
     def message
