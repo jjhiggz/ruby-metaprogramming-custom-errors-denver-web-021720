@@ -15,7 +15,16 @@ class Triangle
     @array[0]>@array[1]+@array[2]
   end
   def triangleType
-    eq ? "equilateral" : isc ? "iscoseles" : sc ? "scalene": undef
+    if eq == true
+      "equalateral"
+    elsif isc == true
+      "iscoseles"
+    elsif sc ==true
+      "scalene"
+    else
+      undefined
+    end
+    
   end
 
   class TriangleError < StandardError
