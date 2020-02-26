@@ -22,7 +22,7 @@ class Triangle
     elsif sc ==true
       "scalene"
     else
-      undefined
+      undef
     end
     
   end
