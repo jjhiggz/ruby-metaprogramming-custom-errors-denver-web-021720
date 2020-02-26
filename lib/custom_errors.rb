@@ -24,7 +24,7 @@ class Triangle
     else
       undef
     end
-    
+
   end
 
   class TriangleError < StandardError
